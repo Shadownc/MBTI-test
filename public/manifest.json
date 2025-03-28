@@ -1,0 +1,73 @@
+{
+  "short_name": "MBTI测试",
+  "name": "MBTI人格测试 | 了解你的性格类型",
+  "description": "一款专业的MBTI人格类型测试应用，帮助你发现自己的性格特点、优势和潜能。",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    }
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#6c5ce7",
+  "background_color": "#f8f9fa",
+  "categories": ["education", "lifestyle", "personalization", "productivity"],
+  "screenshots": [
+    {
+      "src": "screenshots/home-screen.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "MBTI测试首页"
+    },
+    {
+      "src": "screenshots/test-screen.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "测试问题页面"
+    },
+    {
+      "src": "screenshots/result-screen.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "测试结果页面"
+    }
+  ],
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "开始测试",
+      "short_name": "测试",
+      "description": "直接进入MBTI测试",
+      "url": "/test",
+      "icons": [{ "src": "icons/test.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "查看历史测试结果",
+      "short_name": "结果",
+      "description": "查看历史测试结果",
+      "url": "/history",
+      "icons": [{ "src": "icons/history.png", "sizes": "96x96" }]
+    }
+  ],
+  "related_applications": [],
+  "lang": "zh-CN"
+} 

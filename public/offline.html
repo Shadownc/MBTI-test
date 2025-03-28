@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#6c5ce7" />
+  <meta name="description" content="MBTI心理测试 - 离线页面" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <title>MBTI心理测试 - 暂时无法连接</title>
+  <style>
+    :root {
+      --primary: #6c5ce7;
+      --secondary: #8e44ad;
+      --text-primary: #333;
+      --text-secondary: #666;
+      --background: #f8f9fa;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: var(--background);
+      color: var(--text-primary);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      padding: 1rem;
+    }
+    
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 1.5rem;
+    }
+    
+    .offline-icon {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 1.5rem;
+      color: var(--primary);
+    }
+    
+    h1 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      color: var(--primary);
+    }
+    
+    p {
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+      color: var(--text-secondary);
+    }
+    
+    .retry-button {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: white;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 50px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s;
+      box-shadow: 0 4px 10px rgba(108, 92, 231, 0.3);
+      margin-top: 1rem;
+    }
+    
+    .retry-button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 15px rgba(108, 92, 231, 0.4);
+    }
+    
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <svg class="offline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="1" y1="1" x2="23" y2="23"></line>
+      <path d="M16.72 11.06A10.94 10.94 0 0 1 19 12.55"></path>
+      <path d="M5 12.55a10.94 10.94 0 0 1 5.17-2.39"></path>
+      <path d="M10.71 5.05A16 16 0 0 1 22.58 9"></path>
+      <path d="M1.42 9a15.91 15.91 0 0 1 4.7-2.88"></path>
+      <path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path>
+      <line x1="12" y1="20" x2="12.01" y2="20"></line>
+    </svg>
+    
+    <h1>您当前处于离线状态</h1>
+    <p>很抱歉，您似乎已断开网络连接。请检查您的网络设置并重试。</p>
+    <p>如果您之前已经浏览过某些页面，可能仍然可以访问这些已缓存的内容。</p>
+    
+    <button class="retry-button" onclick="window.location.reload()">
+      重新连接
+    </button>
+  </main>
+  
+  <footer>
+    <p>MBTI心理测试 &copy; 2024</p>
+  </footer>
+  
+  <script>
+    // 检查网络连接
+    window.addEventListener('online', () => {
+      window.location.reload();
+    });
+  </script>
+</body>
+</html> 

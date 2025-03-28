@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "text": "在社交场合中，你通常会：",
+    "options": [
+      { "text": "认识很多新朋友，与不同的人交谈", "value": "E" },
+      { "text": "与少数几个人深入交流，或者独自待着", "value": "I" }
+    ],
+    "dimension": "EI"
+  },
+  {
+    "id": 2,
+    "text": "你更喜欢的工作环境是：",
+    "options": [
+      { "text": "开放式空间，可以随时与同事交流", "value": "E" },
+      { "text": "安静的环境，可以专注于自己的工作", "value": "I" }
+    ],
+    "dimension": "EI"
+  },
+  {
+    "id": 3,
+    "text": "当你需要重新充电时，你更倾向于：",
+    "options": [
+      { "text": "与朋友外出，参加社交活动", "value": "E" },
+      { "text": "独处，阅读或享受安静的时光", "value": "I" }
+    ],
+    "dimension": "EI"
+  },
+  {
+    "id": 4,
+    "text": "在团队中，你更倾向于：",
+    "options": [
+      { "text": "表达想法，主动参与讨论", "value": "E" },
+      { "text": "先倾听他人观点，深思熟虑后再发言", "value": "I" }
+    ],
+    "dimension": "EI"
+  },
+  {
+    "id": 5,
+    "text": "当你观察事物时，你更关注：",
+    "options": [
+      { "text": "具体的细节和实际的事实", "value": "S" },
+      { "text": "整体模式和未来可能性", "value": "N" }
+    ],
+    "dimension": "SN"
+  },
+  {
+    "id": 6,
+    "text": "你更倾向于相信：",
+    "options": [
+      { "text": "实际经验和可靠的信息", "value": "S" },
+      { "text": "直觉和灵感", "value": "N" }
+    ],
+    "dimension": "SN"
+  },
+  {
+    "id": 7,
+    "text": "在学习新知识时，你更喜欢：",
+    "options": [
+      { "text": "循序渐进，掌握实用技能", "value": "S" },
+      { "text": "了解概念和理论，探索可能性", "value": "N" }
+    ],
+    "dimension": "SN"
+  },
+  {
+    "id": 8,
+    "text": "你更喜欢的故事类型是：",
+    "options": [
+      { "text": "现实生活中可能发生的事情", "value": "S" },
+      { "text": "充满想象力和创意的故事", "value": "N" }
+    ],
+    "dimension": "SN"
+  },
+  {
+    "id": 9,
+    "text": "做决定时，你更注重：",
+    "options": [
+      { "text": "客观分析和逻辑推理", "value": "T" },
+      { "text": "考虑对人的影响和价值观", "value": "F" }
+    ],
+    "dimension": "TF"
+  },
+  {
+    "id": 10,
+    "text": "当朋友向你倾诉问题时，你通常会：",
+    "options": [
+      { "text": "帮助分析问题并提供解决方案", "value": "T" },
+      { "text": "提供情感支持和理解", "value": "F" }
+    ],
+    "dimension": "TF"
+  },
+  {
+    "id": 11,
+    "text": "在评价一个决策时，你更看重：",
+    "options": [
+      { "text": "是否合理高效", "value": "T" },
+      { "text": "是否符合人道和价值观", "value": "F" }
+    ],
+    "dimension": "TF"
+  },
+  {
+    "id": 12,
+    "text": "你更欣赏他人的哪种品质：",
+    "options": [
+      { "text": "清晰的思维和专业能力", "value": "T" },
+      { "text": "同理心和善解人意", "value": "F" }
+    ],
+    "dimension": "TF"
+  },
+  {
+    "id": 13,
+    "text": "关于日常生活，你更喜欢：",
+    "options": [
+      { "text": "有计划和安排好的日程", "value": "J" },
+      { "text": "灵活应对，随机应变", "value": "P" }
+    ],
+    "dimension": "JP"
+  },
+  {
+    "id": 14,
+    "text": "你的工作区域通常是：",
+    "options": [
+      { "text": "整洁有序，物品各有定位", "value": "J" },
+      { "text": "创意混乱，随手可及", "value": "P" }
+    ],
+    "dimension": "JP"
+  },
+  {
+    "id": 15,
+    "text": "当面对一个项目时，你更倾向于：",
+    "options": [
+      { "text": "提前计划，按步骤完成", "value": "J" },
+      { "text": "灵活应对，根据情况调整", "value": "P" }
+    ],
+    "dimension": "JP"
+  },
+  {
+    "id": 16,
+    "text": "你更喜欢的生活方式是：",
+    "options": [
+      { "text": "有规律，可预测的生活", "value": "J" },
+      { "text": "自由，充满变化的生活", "value": "P" }
+    ],
+    "dimension": "JP"
+  },
+  {
+    "id": 17,
+    "text": "在参加聚会后，你通常会感到：",
+    "options": [
+      { "text": "精力充沛，想再多玩一会", "value": "E" },
+      { "text": "需要独处时间来恢复精力", "value": "I" }
+    ],
+    "dimension": "EI"
+  },
+  {
+    "id": 18,
+    "text": "当遇到问题时，你更倾向于：",
+    "options": [
+      { "text": "与他人讨论来思考解决方案", "value": "E" },
+      { "text": "独自思考后再与他人讨论", "value": "I" }
+    ],
+    "dimension": "EI"
+  },
+  {
+    "id": 19,
+    "text": "当阅读文章时，你更注意：",
+    "options": [
+      { "text": "具体事实和细节", "value": "S" },
+      { "text": "整体意义和潜在含义", "value": "N" }
+    ],
+    "dimension": "SN"
+  },
+  {
+    "id": 20,
+    "text": "你更愿意从事的工作类型是：",
+    "options": [
+      { "text": "有明确步骤和结果的工作", "value": "S" },
+      { "text": "需要创新和构想的工作", "value": "N" }
+    ],
+    "dimension": "SN"
+  },
+  {
+    "id": 21,
+    "text": "当你需要做出重要决定时，你会：",
+    "options": [
+      { "text": "列出利弊，进行客观分析", "value": "T" },
+      { "text": "考虑这个决定对你和他人的情感影响", "value": "F" }
+    ],
+    "dimension": "TF"
+  },
+  {
+    "id": 22,
+    "text": "在给予反馈时，你更注重：",
+    "options": [
+      { "text": "诚实直接，指出问题所在", "value": "T" },
+      { "text": "委婉表达，避免伤害感情", "value": "F" }
+    ],
+    "dimension": "TF"
+  },
+  {
+    "id": 23,
+    "text": "在做计划时，你更偏向：",
+    "options": [
+      { "text": "提前安排好所有细节", "value": "J" },
+      { "text": "保留空间以便随时调整", "value": "P" }
+    ],
+    "dimension": "JP"
+  },
+  {
+    "id": 24,
+    "text": "你对待截止日期的态度是：",
+    "options": [
+      { "text": "严格遵守，通常提前完成", "value": "J" },
+      { "text": "视为参考，根据情况灵活应对", "value": "P" }
+    ],
+    "dimension": "JP"
+  },
+  {
+    "id": 25,
+    "text": "你更喜欢的旅行方式是：",
+    "options": [
+      { "text": "有详细的行程安排", "value": "J" },
+      { "text": "随性而行，看心情决定", "value": "P" }
+    ],
+    "dimension": "JP"
+  },
+  {
+    "id": 26,
+    "text": "当你观察一幅画时，你首先注意到：",
+    "options": [
+      { "text": "技术细节和精确度", "value": "S" },
+      { "text": "给你的整体感觉和象征意义", "value": "N" }
+    ],
+    "dimension": "SN"
+  },
+  {
+    "id": 27,
+    "text": "在解决问题时，你通常依靠：",
+    "options": [
+      { "text": "过去的经验和已知方法", "value": "S" },
+      { "text": "新的思路和创新方法", "value": "N" }
+    ],
+    "dimension": "SN"
+  },
+  {
+    "id": 28,
+    "text": "在交友时，你看重的是：",
+    "options": [
+      { "text": "可靠性和一致性", "value": "S" },
+      { "text": "创意和想象力", "value": "N" }
+    ],
+    "dimension": "SN"
+  },
+  {
+    "id": 29,
+    "text": "在小组讨论中，你更可能：",
+    "options": [
+      { "text": "确保讨论不偏离主题", "value": "S" },
+      { "text": "引入新的思路和可能性", "value": "N" }
+    ],
+    "dimension": "SN"
+  },
+  {
+    "id": 30,
+    "text": "你认为更重要的是：",
+    "options": [
+      { "text": "实事求是，脚踏实地", "value": "S" },
+      { "text": "有远见，着眼未来", "value": "N" }
+    ],
+    "dimension": "SN"
+  }
+] 
