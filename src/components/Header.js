@@ -140,6 +140,12 @@ const MobileMenuContent = styled.div`
   width: 100%;
   height: 100%;
   position: relative;
+  
+  @media (min-width: 769px) {
+    .menu-title, .menu-reminder {
+      display: none; /* Hide menu title and reminder on PC */
+    }
+  }
 `;
 
 const NavHeader = styled.div`
@@ -441,7 +447,7 @@ const Header = () => {
         
         <NavLinks $isOpen={isOpen}>
           <MobileMenuContent>
-            <NavHeader>
+            <NavHeader className="menu-title">
               <NavTitle>选择菜单</NavTitle>
               <CloseButton onClick={toggleMenu}>
                 <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -463,7 +469,7 @@ const Header = () => {
               </NavItem>
             </NavItemsContainer>
             
-            <NavFooter>
+            <NavFooter className="menu-reminder">
               温馨提示：请完成所有问题后查看结果
               <br />
               <a href="#" onClick={(e) => {e.preventDefault(); setIsOpen(false);}}>返回</a>
